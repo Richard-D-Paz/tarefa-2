@@ -2,14 +2,13 @@ num = int(input("Digite um número para descobrir seus divisores: "))
 
 i = num
 
-
 while i <= num and not i == 0 : 
     
     if num % i == 0:
     
         print(i)
     i -= 1
-    
+
 """
 faz a variavel 'i' recebr o mesmo valor de 'num'
 

@@ -1,6 +1,7 @@
 num = float(input("Digite o valor para ser identificado se é positivo, negativo ou igual a zero: "))
 
 
+
 while num == 0:
     print("Valor inválido")
 
